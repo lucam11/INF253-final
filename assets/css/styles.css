@@ -1,0 +1,44 @@
+.background{
+  background-color: #FFFFFF;
+  width: 92%;
+  max-width:800px;
+  margin: 0 auto;
+  padding: 12px 10px;
+  text-align: center;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+    padding-left: 20px;
+    margin-top: 8px;
+    font-size: larger;
+}
+
+body{
+    background-color: #f5f5f5;
+    font-family: arial, sans-serif;
+    background-image: url(../images/leaves.png);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: .5em;
+    margin-block-end: .5em;
+}
+
+img{
+  text-align: center;
+  max-width: 90%;
+  max-height: 90%
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.caption{
+  font-style: italic;
+  text-align: center;
+  margin-top: .25em;
+  font-size: x-small;
+}
