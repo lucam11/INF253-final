@@ -80,10 +80,10 @@ img{
 
 .site-name{
   color: #8FAD85;
-  text-align: left;
+  text-align: right;
   margin-bottom: .5em;
   margin-block-end: .5em;
-  margin-left: 1250px;
+  margin-right: : auto;
 }
 
 
