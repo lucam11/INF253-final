@@ -1,7 +1,7 @@
 .background{
   background-color: #FFFFFF;
-  width: 92%;
-  max-width:800px;
+  width: 70%;
+  max-width:1000px;
   margin: 0 auto;
   padding: 12px 10px;
   text-align: center;
@@ -10,9 +10,16 @@
 ul {
     text-align: center;
     list-style-type: none;
-    padding-left: 20px;
+    padding-left: 5px;
     margin-top: 8px;
     font-size: larger;
+}
+
+ol {
+    text-align: center;
+    list-style-position: inside;
+    padding-right: 45px;
+    margin-top: 8px;
 }
 
 body{
@@ -21,24 +28,84 @@ body{
     background-image: url(../images/leaves.png);
 }
 
-h2 {
+#page-title{
+  color: #297045;
+  font-family: Brush Script MT,cursive;
+  font-size: xxx-large;
+}
+
+#tomato-title{
+  color: #DE1A1A;
+  font-family: Brush Script MT,cursive;
+  font-size: xxx-large;
+}
+
+#cucumber-title{
+  color: #12ab53;
+  font-family: Brush Script MT,cursive;
+  font-size: xxx-large;
+}
+
+#potato-title{
+  color: #8C4C18;
+  font-family: Brush Script MT,cursive;
+  font-size: xxx-large;
+}
+
+#sunflower-title{
+  color: #F5C800;
+  font-family: Brush Script MT,cursive;
+  font-size: xxx-large;
+}
+
+
+
+h2{
+    color: #25653e;
     text-align: center;
     margin-bottom: .5em;
     margin-block-end: .5em;
 }
 
+
+
 img{
-  text-align: center;
+
   max-width: 90%;
-  max-height: 90%
+  max-height: 90%;
   height: auto;
   margin-left: auto;
   margin-right: auto;
 }
+
+.site-name{
+  color: #8FAD85;
+  text-align: left;
+  margin-bottom: .5em;
+  margin-block-end: .5em;
+  margin-left: 1250px;
+}
+
 
 .caption{
   font-style: italic;
   text-align: center;
   margin-top: .25em;
   font-size: x-small;
+}
+
+@media all and (min-width: 920px){
+  article, aside{
+  float: left;
+  background-color: #FFFFFF;
+  }
+
+  article{
+  width: 75%;
+  padding-left: 110px;
+  }
+  aside{
+  width: 25%;
+
+  }
 }
